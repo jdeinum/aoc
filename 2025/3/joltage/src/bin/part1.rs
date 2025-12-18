@@ -10,10 +10,6 @@ fn part1(joltages: &str) -> Result<u64> {
     Ok(res.context("get joltages")?.iter().sum())
 }
 
-fn part2(joltages: &str) -> Result<u64> {
-    todo!()
-}
-
 // The largest number should come first, but it cannot be the last number
 // If there are multiple max values, we pick the first to make the window for the second value to
 // be the largest
